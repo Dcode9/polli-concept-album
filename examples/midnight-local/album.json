@@ -1,0 +1,14 @@
+{
+  "band": "The Night Freight",
+  "album": "Midnight Local",
+  "tagline": "Every stop is the last one tonight.",
+  "genre": "late-night lo-fi noir",
+  "cover_prompt": "empty radio station studio at 2am, warm tungsten light, reel-to-reel tape, rain on the window, cinematic film photo, moody",
+  "cover": "cover.png",
+  "tracks": [
+    {"title": "Station Ident", "mood": "warm static", "prompt": "soft vinyl crackle, distant platform announcement, tape hiss", "seconds": 30, "instrumental": true, "file": "track-01.mp3"},
+    {"title": "Gutterlights", "mood": "slow burn", "prompt": "lo-fi noir beat, brushed drums, melancholy rhodes, rain sounds", "seconds": 90, "instrumental": true, "file": "track-02.mp3"},
+    {"title": "Terminus", "mood": "resolution", "prompt": "sparse piano over tape loop, train fading into distance", "seconds": 75, "instrumental": true, "file": "track-03.mp3"}
+  ],
+  "promo_prompt": "slow dolly across a dark radio studio, ON AIR sign flickers, rain-streaked glass, 8 seconds"
+}
