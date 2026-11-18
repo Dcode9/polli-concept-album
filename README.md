@@ -6,6 +6,10 @@ theme into a complete fictional album drop with
 cover art, real generated music, an optional promo clip, and a static player
 page, all verified before delivery.
 
+The assembly and verification pipeline is smoke-tested end to end; example
+media is rendered at run time with the runner's own Pollinations key (BYOP),
+so no pre-generated binaries are committed.
+
 [![Made with pollinations.ai](https://raw.githubusercontent.com/pollinations/pollinations/main/packages/ui/src/brand/badge-made-with.svg)](https://pollinations.ai/?ref=badge)
 
 ## What the agent does
@@ -36,4 +40,4 @@ Users pay with their own Pollen when they pick paid models - see
 - `scripts/build_player.py` - manifest -> static player page
 - `scripts/verify_album.py` - pre-delivery verification gate
 - `references/` - endpoint and model cheat sheets
-- `examples/` - a finished album drop
+- `examples/` - a sample manifest and the player page built from it (see its README for why no generated binaries are committed)
